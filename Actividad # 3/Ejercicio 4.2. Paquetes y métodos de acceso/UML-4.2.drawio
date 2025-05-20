@@ -1,0 +1,235 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.6">
+  <diagram name="Página-1" id="hV6fuAojZ-DjI4_VLckQ">
+    <mxGraphModel dx="2571" dy="910" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Vii_yXZ_0SVrwOlKndqz-1" value="Inmueble" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="10" width="400" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Vii_yXZ_0SVrwOlKndqz-2" value="&lt;div&gt;- identificadorInmobiliario: int&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- área: int&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- dirección: String&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- precioVenta: double&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Vii_yXZ_0SVrwOlKndqz-1">
+          <mxGeometry y="26" width="400" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="Vii_yXZ_0SVrwOlKndqz-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Vii_yXZ_0SVrwOlKndqz-1">
+          <mxGeometry y="90" width="400" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Vii_yXZ_0SVrwOlKndqz-4" value="&lt;div&gt;+ Inmueble(identificador: int, área: int, dirección: String)&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ calcularPrecioVenta(valorArea: double): double&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ imprimir(): void&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Vii_yXZ_0SVrwOlKndqz-1">
+          <mxGeometry y="98" width="400" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="Vii_yXZ_0SVrwOlKndqz-5" value="InmuebleVivienda" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="220" width="250" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Vii_yXZ_0SVrwOlKndqz-6" value="&lt;div&gt;- númeroHabitaciones: int&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- númeroBaños: int&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Vii_yXZ_0SVrwOlKndqz-5">
+          <mxGeometry y="26" width="250" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="Vii_yXZ_0SVrwOlKndqz-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Vii_yXZ_0SVrwOlKndqz-5">
+          <mxGeometry y="70" width="250" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Vii_yXZ_0SVrwOlKndqz-8" value="&lt;div&gt;+ InmuebleVivienda(identificador: int, área: int, dirección: String, habitaciones: int, baños: int)&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ imprimir(): void&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Vii_yXZ_0SVrwOlKndqz-5">
+          <mxGeometry y="78" width="250" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="Vii_yXZ_0SVrwOlKndqz-9" value="Apartamento" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="410" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Vii_yXZ_0SVrwOlKndqz-10" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Vii_yXZ_0SVrwOlKndqz-9">
+          <mxGeometry y="26" width="160" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="Vii_yXZ_0SVrwOlKndqz-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Vii_yXZ_0SVrwOlKndqz-9">
+          <mxGeometry y="30" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Vii_yXZ_0SVrwOlKndqz-12" value="&lt;div&gt;+ Apartamento(...)&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ imprimir(): void&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Vii_yXZ_0SVrwOlKndqz-9">
+          <mxGeometry y="38" width="160" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="Vii_yXZ_0SVrwOlKndqz-14" value="ApartamentoFamiliar" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="540" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Vii_yXZ_0SVrwOlKndqz-15" value="&lt;div&gt;- valorArea: double&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- valorAdministración: int&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Vii_yXZ_0SVrwOlKndqz-14">
+          <mxGeometry y="26" width="160" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="Vii_yXZ_0SVrwOlKndqz-16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Vii_yXZ_0SVrwOlKndqz-14">
+          <mxGeometry y="70" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Vii_yXZ_0SVrwOlKndqz-17" value="&lt;div&gt;+ ApartamentoFamiliar(...)&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ imprimir(): void&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Vii_yXZ_0SVrwOlKndqz-14">
+          <mxGeometry y="78" width="160" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="Vii_yXZ_0SVrwOlKndqz-18" value="Apartaestudio" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="550" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Vii_yXZ_0SVrwOlKndqz-19" value="&lt;div&gt;- valorArea: double&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Vii_yXZ_0SVrwOlKndqz-18">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Vii_yXZ_0SVrwOlKndqz-20" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Vii_yXZ_0SVrwOlKndqz-18">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Vii_yXZ_0SVrwOlKndqz-21" value="&lt;div&gt;+ Apartaestudio(...)&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ imprimir(): void&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Vii_yXZ_0SVrwOlKndqz-18">
+          <mxGeometry y="60" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Vii_yXZ_0SVrwOlKndqz-22" value="Local" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="220" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Vii_yXZ_0SVrwOlKndqz-23" value="&lt;div&gt;- tipoLocal: enum {INTERNO, CALLE}&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Vii_yXZ_0SVrwOlKndqz-22">
+          <mxGeometry y="26" width="160" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="Vii_yXZ_0SVrwOlKndqz-24" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Vii_yXZ_0SVrwOlKndqz-22">
+          <mxGeometry y="60" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Vii_yXZ_0SVrwOlKndqz-25" value="&lt;div&gt;+ Local(...)&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ imprimir(): void&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Vii_yXZ_0SVrwOlKndqz-22">
+          <mxGeometry y="68" width="160" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="Vii_yXZ_0SVrwOlKndqz-26" value="LocalComercial" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="390" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Vii_yXZ_0SVrwOlKndqz-27" value="&lt;div&gt;- valorArea: double&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- centroComercial: String&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Vii_yXZ_0SVrwOlKndqz-26">
+          <mxGeometry y="26" width="160" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="Vii_yXZ_0SVrwOlKndqz-28" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Vii_yXZ_0SVrwOlKndqz-26">
+          <mxGeometry y="70" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Vii_yXZ_0SVrwOlKndqz-29" value="&lt;div&gt;+ LocalComercial(...)&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ imprimir(): void&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Vii_yXZ_0SVrwOlKndqz-26">
+          <mxGeometry y="78" width="160" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="Vii_yXZ_0SVrwOlKndqz-30" value="Oficina" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="390" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Vii_yXZ_0SVrwOlKndqz-31" value="&lt;div&gt;- valorArea: double&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- esGobierno: boolean&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Vii_yXZ_0SVrwOlKndqz-30">
+          <mxGeometry y="26" width="160" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="Vii_yXZ_0SVrwOlKndqz-32" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Vii_yXZ_0SVrwOlKndqz-30">
+          <mxGeometry y="70" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Vii_yXZ_0SVrwOlKndqz-33" value="&lt;div&gt;+ Oficina(...)&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ imprimir(): void&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Vii_yXZ_0SVrwOlKndqz-30">
+          <mxGeometry y="78" width="160" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="Vii_yXZ_0SVrwOlKndqz-35" value="Casa" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-600" y="400" width="210" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Vii_yXZ_0SVrwOlKndqz-36" value="&lt;div&gt;- númeroPisos: int&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Vii_yXZ_0SVrwOlKndqz-35">
+          <mxGeometry y="26" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Vii_yXZ_0SVrwOlKndqz-37" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Vii_yXZ_0SVrwOlKndqz-35">
+          <mxGeometry y="52" width="210" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Vii_yXZ_0SVrwOlKndqz-38" value="&lt;div&gt;+ Casa(identificador: int, área: int, dirección: String, habitaciones: int, baños: int, pisos: int)&lt;/div&gt;&lt;div&gt;+ imprimir(): void&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Vii_yXZ_0SVrwOlKndqz-35">
+          <mxGeometry y="60" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Vii_yXZ_0SVrwOlKndqz-39" value="CasaRural" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-780" y="590" width="200" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Vii_yXZ_0SVrwOlKndqz-40" value="&lt;div&gt;- valorArea: double&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- distanciaCabecera: int&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- altitud: int&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Vii_yXZ_0SVrwOlKndqz-39">
+          <mxGeometry y="26" width="200" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="Vii_yXZ_0SVrwOlKndqz-41" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Vii_yXZ_0SVrwOlKndqz-39">
+          <mxGeometry y="90" width="200" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Vii_yXZ_0SVrwOlKndqz-42" value="&lt;div&gt;+ CasaRural(identificador: int, área: int, dirección: String, habitaciones: int, baños: int, pisos: int, distanciaCabecera: int, altitud: int)&lt;/div&gt;&lt;div&gt;+ imprimir(): void&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Vii_yXZ_0SVrwOlKndqz-39">
+          <mxGeometry y="98" width="200" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="Vii_yXZ_0SVrwOlKndqz-43" value="CasaUrbana" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-413" y="600" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Vii_yXZ_0SVrwOlKndqz-45" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Vii_yXZ_0SVrwOlKndqz-43">
+          <mxGeometry y="26" width="180" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Vii_yXZ_0SVrwOlKndqz-46" value="&lt;div&gt;+ CasaUrbana(identificador: int, área: int, dirección: String, habitaciones: int, baños: int, pisos: int)&lt;/div&gt;&lt;div&gt;+ imprimir(): void&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Vii_yXZ_0SVrwOlKndqz-43">
+          <mxGeometry y="34" width="180" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="Vii_yXZ_0SVrwOlKndqz-47" value="CasaConjuntoCerrado" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-630" y="810" width="260" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="Vii_yXZ_0SVrwOlKndqz-48" value="&lt;div&gt;- valorArea: double&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- valorAdministración: int&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- tienePiscina: boolean&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- tieneCamposDeportivos: boolean&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Vii_yXZ_0SVrwOlKndqz-47">
+          <mxGeometry y="26" width="260" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="Vii_yXZ_0SVrwOlKndqz-49" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Vii_yXZ_0SVrwOlKndqz-47">
+          <mxGeometry y="110" width="260" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Vii_yXZ_0SVrwOlKndqz-50" value="&lt;div&gt;+ CasaConjuntoCerrado(identificador: int, área: int, dirección: String, habitaciones: int, baños: int, pisos: int, valorAdministración: int, tienePiscina: boolean, tieneCamposDeportivos: boolean)&lt;/div&gt;&lt;div&gt;+ imprimir(): void&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Vii_yXZ_0SVrwOlKndqz-47">
+          <mxGeometry y="118" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="Vii_yXZ_0SVrwOlKndqz-51" value="CasaIndependiente" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-310" y="810" width="230" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Vii_yXZ_0SVrwOlKndqz-52" value="&lt;div&gt;- valorArea: double&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Vii_yXZ_0SVrwOlKndqz-51">
+          <mxGeometry y="26" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Vii_yXZ_0SVrwOlKndqz-53" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Vii_yXZ_0SVrwOlKndqz-51">
+          <mxGeometry y="52" width="230" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Vii_yXZ_0SVrwOlKndqz-54" value="&lt;div&gt;+ CasaIndependiente(identificador: int, área: int, dirección: String, habitaciones: int, baños: int, pisos: int)&lt;/div&gt;&lt;div&gt;+ imprimir(): void&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Vii_yXZ_0SVrwOlKndqz-51">
+          <mxGeometry y="60" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Vii_yXZ_0SVrwOlKndqz-55" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.578;entryY=1.035;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="Vii_yXZ_0SVrwOlKndqz-46">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-200" y="810" as="sourcePoint" />
+            <mxPoint x="-150" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vii_yXZ_0SVrwOlKndqz-56" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="Vii_yXZ_0SVrwOlKndqz-46">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-484" y="810" as="sourcePoint" />
+            <mxPoint x="-630" y="713" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vii_yXZ_0SVrwOlKndqz-57" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.321;entryY=1.062;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Vii_yXZ_0SVrwOlKndqz-39" target="Vii_yXZ_0SVrwOlKndqz-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-690" y="590.98" as="sourcePoint" />
+            <mxPoint x="-529.3100000000002" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vii_yXZ_0SVrwOlKndqz-58" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.702;entryY=1.062;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Vii_yXZ_0SVrwOlKndqz-43" target="Vii_yXZ_0SVrwOlKndqz-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-370" y="590" as="sourcePoint" />
+            <mxPoint x="-270" y="515" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vii_yXZ_0SVrwOlKndqz-59" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="Vii_yXZ_0SVrwOlKndqz-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-490" y="400" as="sourcePoint" />
+            <mxPoint x="-440" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vii_yXZ_0SVrwOlKndqz-60" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.48;entryY=1.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="Vii_yXZ_0SVrwOlKndqz-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-30" y="405" as="sourcePoint" />
+            <mxPoint x="61" y="355" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vii_yXZ_0SVrwOlKndqz-61" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.438;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.375;entryY=0.993;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Vii_yXZ_0SVrwOlKndqz-18" target="Vii_yXZ_0SVrwOlKndqz-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-100" y="550" as="sourcePoint" />
+            <mxPoint x="-28" y="494" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vii_yXZ_0SVrwOlKndqz-62" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Vii_yXZ_0SVrwOlKndqz-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="540" as="sourcePoint" />
+            <mxPoint x="10" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vii_yXZ_0SVrwOlKndqz-66" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.408;entryY=1.077;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Vii_yXZ_0SVrwOlKndqz-5" target="Vii_yXZ_0SVrwOlKndqz-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-240" y="220" as="sourcePoint" />
+            <mxPoint x="-190" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vii_yXZ_0SVrwOlKndqz-67" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.643;entryY=1.115;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Vii_yXZ_0SVrwOlKndqz-22" target="Vii_yXZ_0SVrwOlKndqz-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="216" as="sourcePoint" />
+            <mxPoint x="522" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vii_yXZ_0SVrwOlKndqz-68" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.356;entryY=0.952;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.419;exitY=0.05;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Vii_yXZ_0SVrwOlKndqz-26" target="Vii_yXZ_0SVrwOlKndqz-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="390" as="sourcePoint" />
+            <mxPoint x="380" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vii_yXZ_0SVrwOlKndqz-69" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.731;entryY=1.143;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.438;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="Vii_yXZ_0SVrwOlKndqz-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="390" as="sourcePoint" />
+            <mxPoint x="712" y="334" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
